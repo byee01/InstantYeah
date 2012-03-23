@@ -8,4 +8,7 @@ soundManager.onready(function(){
 
 function yeah() {
   soundManager.play('yeah');
+  if(_gaq) {
+    _gaq.push(['_trackEvent', 'events', 'playyeah', 'plays']);
+  }
 }
