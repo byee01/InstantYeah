@@ -6,4 +6,15 @@ body {
 #c {
   margin: 100px auto 0;
   display: block;
+  cursor: pointer;
+  border: 1px solid #111;
+  box-shadow: 0 0 70px #000;
+  -webkit-transition: all .2s ease-in;
+  -moz-transition: all .2s ease-in;
+}
+
+#c:hover {
+  margin: 99px auto 0;
+  border: 1px solid #FFF;
+  box-shadow: 0 0 50px #DFF;
 }
